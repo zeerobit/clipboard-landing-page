@@ -63,7 +63,7 @@ table {
 
 .corp__logo__wrapper {
     display: flex;
-    background: url(/images/bg-header-mobile.png) top/cover no-repeat;
+    background: url(images/bg-header-mobile.png) top/cover no-repeat;
     min-height: 22.68rem;
 }
 
@@ -268,7 +268,7 @@ h3 {
 
     
     .corp__logo__wrapper {
-        background: url(/images/bg-header-desktop.png) top/cover no-repeat;
+        background: url(images/bg-header-desktop.png) top/cover no-repeat;
     }
 
 
