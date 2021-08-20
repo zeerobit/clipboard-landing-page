@@ -1,0 +1,420 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-size: 1.125rem;
+    min-height: 100vh;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+    --strong_cyan: hsl(171, 66%, 44%); 
+    --light_blue: hsl(233, 100%, 69%); 
+    --dark_grayish_blue: hsl(210, 10%, 33%);
+    --grayish_blue: hsl(201, 11%, 66%);
+}
+
+.container {
+    width: 23.43rem;
+    min-height: 100vh;
+}
+
+.corp__logo__wrapper {
+    display: flex;
+    background: url(/images/bg-header-mobile.png) top/cover no-repeat;
+    min-height: 22.68rem;
+}
+
+.header__section {
+    margin-bottom: 10.1rem;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.header__title {
+    font-size: 1.9rem;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 600;
+    color: var(--dark_grayish_blue);
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 2.4rem;
+    margin-top: -3.35rem;
+}
+
+.content {
+    font-size: 1rem;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 400;
+    color: var(--grayish_blue);
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0 2.1rem;
+    margin-top: 1.2rem;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 2rem;
+    border-radius: 2rem;
+    padding: 1rem 0;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.ios__btn {
+    margin-top: 3.4rem;
+    background-color: var(--strong_cyan);
+    border-bottom: 3px solid hsl(171deg 63% 35%);
+    box-shadow: 0px 10px 17px -8px var(--strong_cyan);
+}
+
+.mac__btn {
+    margin-top: 1.7rem;
+    background-color: var(--light_blue);
+    border-bottom: 3px solid hsl(233deg 49% 51%) ;
+    box-shadow: 0px 10px 17px -8px var(--light_blue, 0.5);
+}
+
+h2 {
+    font-size: 1.9rem;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 600;
+    color: var(--dark_grayish_blue);
+    padding: 0 2rem;
+    text-align: center;
+    line-height: 2.4rem;
+}
+
+
+.clipboard__features{
+    margin-top: 4.5rem;
+}
+
+.imac__img {
+    display: block;
+    width: 19.5rem;
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.45rem;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 600;
+    color: var(--dark_grayish_blue);
+    margin-top: 3.5rem;
+}
+
+.devices {
+    margin-top: 10.6rem;
+}
+
+
+.devices__img {
+    display: block;
+    width: 20.5rem;
+    margin-bottom: 9rem;
+    margin-top: 7.5rem;
+}
+
+
+.workflow__highlights {
+    margin-top: 5rem;
+}
+
+.workflow__highlights img {
+    margin-top: 3.9rem;
+}
+
+.brand__logos {
+    display: block;
+    margin-top: 8rem;
+}
+
+.brand__logos img {
+    margin-top: 3.75rem;
+}
+
+
+.footer__section {
+    margin-top: 10.6rem;
+    background-color: hsl(220, 18%, 97%);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+    padding-top: 3.3rem;
+    display: block;
+    width: 3.4rem;
+}
+
+.download__clipboard {
+    margin-top: 9.4rem;
+}
+
+.nav__links {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.nav__links li {
+    text-align: center;
+    padding-top: 2.1rem;
+    font-family: Bai Jamjuree, sans-serif;
+    
+}
+
+.nav__links a {
+    text-decoration: none;
+    color: var(--dark_grayish_blue);
+}
+
+
+.social__media {
+    margin: auto;
+}
+
+.social__media a {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--dark_grayish_blue);
+    font-size: 0.8rem;
+  }
+
+  .attribution a {
+    color: var(--strong_cyan);
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
+
+
+  @media only screen and  (min-width: 56.25rem){
+    .container {
+        width: 90rem;
+        min-height: 100vh;
+    }
+
+    .header__intro {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        width: 47rem;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    
+    .corp__logo__wrapper {
+        background: url(/images/bg-header-desktop.png) top/cover no-repeat;
+    }
+
+
+    .header__title {
+        font-size: 2.75rem;
+    }
+
+    .header__intro p {
+        font-size: 1.2rem;
+        margin-top: 1.68rem;
+        line-height: 1.83rem;
+    }
+
+    .download__buttons {
+        margin: auto;
+}
+
+    .btn {
+        display: inline-block;
+        margin: 0 0.3rem;
+        margin-top: 3rem;
+        padding: 1.1rem 2.5rem;
+    }
+
+    .btn:hover {
+        opacity: 0.8;
+    }
+
+    .snippets {
+        width: 46rem;
+        margin: auto;
+    }
+
+    .snippets p {
+        font-size: 1.1rem;
+        line-height: 1.83rem;
+    }
+
+    .clipboard__features {
+        display: flex;
+    }
+
+    .imac__img__wrapper {
+        margin-left: 12rem;
+    }
+ 
+    .imac__img {
+        width: 100%;
+    }
+
+    .features {
+        width: 21rem;
+        margin-top: 1.5rem;
+        margin-left: 7rem;
+    }
+
+    .features h3  {
+        text-align: left;
+    }
+
+    .features p {
+        text-align: left;
+        padding: 0;
+
+    }
+
+    .access {
+        width: 42rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .devices__img {
+        width: inherit;
+    }
+
+    .workflow__highlights {
+        display: flex;
+        justify-content: center;
+    }
+
+    .workflow__highlights div {
+        width: 26rem;
+    }
+
+    .brand__logos {
+        display: flex;
+        justify-content: space-around;
+        width: 80rem;
+        margin: auto;
+        margin-top: 8rem;
+        margin-bottom: 9.4rem;
+    }
+
+    .download__clipboard {
+        display: flex;
+        flex-direction: column;
+        width: 42rem;
+        margin: auto;
+    }
+
+
+    .footer__section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer__logo__wrapper {
+        flex-basis: 32%;
+    }
+
+  
+    .nav__links ul {
+        columns: 3 10rem;
+    }
+
+    .nav__links li {
+        text-align: left;
+    }
+
+    .nav__links a:hover {
+        color: var(--strong_cyan);
+    }
+
+
+    .social__media a:hover {
+        filter: invert(53%) sepia(97%) saturate(334%) hue-rotate(122deg) brightness(96%) contrast(89%);
+    }
+    
+    
+    .attribution {
+        align-self: flex-end;
+        margin-bottom: 1rem;
+    }
+
+    .attribution span {
+        display: block;
+        padding: 0.5rem 0;
+    }
+
+    .coder__name {
+        text-align: left;
+    }
+
+   
+
+  }
