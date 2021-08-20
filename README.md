@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/clipboard-landing-page-hmtl-css-flexbox-_cp35VGhn
 - Live Site URL: https://zeerobit.github.io/clipboard-landing-page/
 
 ## My process
