@@ -33,8 +33,6 @@ Users should be able to:
 ### Screenshot
 
 ![desktop-preview](https://user-images.githubusercontent.com/49578782/130282198-6541e358-edf6-4c9f-86bc-a2379ed3a098.jpg)
-![mobile-design](https://user-images.githubusercontent.com/49578782/130282251-83940321-3423-4577-a980-6c61706f1e3a.jpg)
-
 
 
 ### Links
