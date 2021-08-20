@@ -162,7 +162,7 @@ h3 {
 .devices__img {
     display: block;
     width: 20.5rem;
-    margin-bottom: 9rem;
+    margin-bottom: 7rem;
     margin-top: 7.5rem;
 }
 
@@ -171,9 +171,6 @@ h3 {
     margin-top: 5rem;
 }
 
-.workflow__highlights img {
-    margin-top: 3.9rem;
-}
 
 .brand__logos {
     display: block;
@@ -186,10 +183,12 @@ h3 {
 
 
 .footer__section {
-    margin-top: 10.6rem;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
     background-color: hsl(220, 18%, 97%);
     display: flex;
     flex-direction: column;
+    height: 9rem;
 }
 
 .footer__logo {
@@ -231,7 +230,7 @@ h3 {
 
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.68rem;
     text-align: center;
     margin-top: 1.5rem;
     color: var(--dark_grayish_blue);
