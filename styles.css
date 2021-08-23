@@ -230,9 +230,10 @@ h3 {
 .attribution {
     font-size: 0.68rem;
     text-align: center;
-    margin-top: 1.5rem;
+    padding-top: 2rem;
     color: var(--dark_grayish_blue);
     font-size: 0.8rem;
+    margin: auto;
   }
 
   .attribution a {
@@ -244,35 +245,17 @@ h3 {
     }
 
 
-    @media only screen and  (min-width: 49rem){
-      
-        .attribution {
-            align-self: flex-end;
-        }
-
-        .nav__links ul {
-            margin: auto;
-        }
-
-    }
-
 
     
     @media only screen and  (min-width: 90rem){
         .imac__img__wrapper {
             margin-left: 12rem;
         }
-
-        .social__media {
-            margin-left: 8rem;
-        }
-
-        .attribution {
-            align-self: flex-end;
-        }
     }
 
-    @media only screen and  (min-width: 56rem){
+    
+
+    @media only screen and  (min-width: 65rem){
         .container {
             min-width: 90rem;
             min-height: 100vh;
@@ -380,7 +363,7 @@ h3 {
     .brand__logos {
         display: flex;
         justify-content: space-around;
-        width: 80rem;
+        max-width: 80rem;
         margin: auto;
         margin-top: 8rem;
         margin-bottom: 9.4rem;
@@ -397,7 +380,7 @@ h3 {
     .footer__section {
         display: flex;
         flex-direction: row;
-        height: 10rem;
+        min-height: 10rem;
         margin-bottom: 9rem;
         flex-wrap: wrap;
         flex-basis: 100%;
@@ -407,7 +390,7 @@ h3 {
         flex-basis: 32%;
     }
 
-  
+
     .nav__links ul {
         columns: 3 10rem;
     }
@@ -427,7 +410,7 @@ h3 {
 
     .attribution {
         margin-bottom: 1rem;
-        flex-grow: 1;
+        flex-basis: 40%;
     }
 
    
