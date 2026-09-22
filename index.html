@@ -186,6 +186,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </section>
   </footer>
+
+  <script>
+document.addEventListener("userway:render_completed", function() {
+        var icon = document.querySelector('div.uai .uiiw img');
+        !!icon && (icon.src = 'https://cdn.userway.org/widgetapp/images/body_wh.svg');
+    });
+</script>
 </body>
 
 </html>
